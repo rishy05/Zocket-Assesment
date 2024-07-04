@@ -81,7 +81,7 @@ def generate_prompt(img_data):
 
     print("Prompt Generating")
 
-    client = Groq(api_key="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")
+    client = Groq(api_key="API-KEY")
 
     chat_completion = client.chat.completions.create(
         messages=[
