@@ -159,7 +159,7 @@ Conclude with a brief summary of your overall assessment and key takeaways.""",
     for response in responses:
         full_response += response.text
 
-    # prompt_img(generate_prompt(full_response), img_path)
+    prompt_img(generate_prompt(full_response), img_path)
     print(full_response)
     return full_response
 
